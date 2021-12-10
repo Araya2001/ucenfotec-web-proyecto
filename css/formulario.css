@@ -1,0 +1,71 @@
+/*
+PALETA DE COLORES A USAR
+
+#ff6978 TEXTO RESALTADO
+#fffcf9 FONDO
+#B1EDE8 MENU Y BARRA
+#6D435A TEXTO MENU
+#352D39 TITULOS
+*/
+label {
+    color: #6D435A;
+    margin-top: 20px;
+    margin-left: 50px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+form {
+    margin: 0 auto;
+    width: 530px;
+    height: 750px;
+    color: #352D39;
+    border: solid 5px #6D435A;
+    background-color: #fffcf9;
+    border-radius: 0px;
+}
+
+input:hover {
+    outline: 2px solid #B1EDE8;
+}
+
+textarea:hover {
+    outline: 2px solid #B1EDE8;
+}
+
+input, textarea {
+
+    color: #352D39;
+    width: 400px;
+    height: 27px;
+    background: #eee;
+    border: 2px solid #B1EDE8;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 18px
+}
+
+.enviar {
+    display: block;
+    height: 50px;
+    color: #ff6978;
+    font-size: 26px;
+    cursor: pointer;
+    background-color: #B1EDE8;
+}
+
+.borrar {
+    display: block;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+textarea {
+    height: 150px;
+    max-height: 150px;
+    min-height: 150px;
+    max-width: 400px;
+    min-width: auto;
+}
